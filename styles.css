@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background: url("plain2.jpg") repeat left top ;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #4a2;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+button {
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+.content {
+    background-color: #363143;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.black {
+    color: white;
+    background-color: #4a2;;
+    margin-bottom: 10px;
+}
+
+.finish {
+    border: hidden;
+    background-color: transparent;
+}
